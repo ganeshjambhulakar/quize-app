@@ -12,6 +12,8 @@
 
 ### Create Quiz
 **POST** `/api/quizzes`
+      
+       
 
 ### Get Quiz
 **GET** `/api/quizzes/:id`
@@ -25,5 +27,27 @@
 ## Known Issues
 - Currently, no authentication is implemented.
 - Limited to in-memory data for partial results.
+
+
+## Request parameters For Quize creation
+
+
+{
+  "title": "Quiz Title",
+  "questions": [
+    {
+      "text": "Question 1?",
+      "options": ["option 1", "option 2", "option 3", "option 4"],
+      "correct_option": 1
+    },
+    .,
+    .,
+    .,
+    .
+  ]
+}'
+
+
+
 
 
