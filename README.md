@@ -29,24 +29,8 @@
 - Limited to in-memory data for partial results.
 
 
-## Request parameters For Quize creation
-
-
-{
-  "title": "Quiz Title",
-  "questions": [
-    {
-      "text": "Question 1?",
-      "options": ["option 1", "option 2", "option 3", "option 4"],
-      "correct_option": 1
-    },
-    .,
-    .,
-    .,
-    .
-  ]
-}'
-
+## import collection file  Quize App.postman_collection.json 
+- set http://localhost:3000/api as {{base_url}}
 
 
 
